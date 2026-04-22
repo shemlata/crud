@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9c491b8531eec05ba41a11d9276a5749",
+    "content-hash": "2dc0a3f0f7e87f33582e284414e6d111",
     "packages": [
         {
             "name": "brick/math",
@@ -507,6 +507,47 @@
                 }
             ],
             "time": "2025-03-06T22:45:56+00:00"
+        },
+        {
+            "name": "fida/laravel-crud-generator",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sayedahmadfida/Pilot.git",
+                "reference": "6b2f72f0fbef29cd40e65bec65446e3c370cc513"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sayedahmadfida/Pilot/zipball/6b2f72f0fbef29cd40e65bec65446e3c370cc513",
+                "reference": "6b2f72f0fbef29cd40e65bec65446e3c370cc513",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.2"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Fida\\Crud\\PilotServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Fida\\Crud\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Laravel CRUD generator",
+            "support": {
+                "issues": "https://github.com/sayedahmadfida/Pilot/issues",
+                "source": "https://github.com/sayedahmadfida/Pilot/tree/v1.0.0"
+            },
+            "time": "2026-03-15T17:47:12+00:00"
         },
         {
             "name": "fruitcake/php-cors",
